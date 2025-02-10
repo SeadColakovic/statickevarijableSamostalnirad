@@ -1,0 +1,16 @@
+STATIC JE MODIFIKATOR KOJI U C# PRIMJENJUJE SLJEDEĆE : 
+NASTAVA , VARIJABLE , METODE , KONSTRUKTOR
+Također se primjenjuje za SVOJSTVA , DOGAĐAJ i OPERATORE
+Statičke klase su ZAPEČAĆENE , što znači da se ne može naslijediti statička klasa od druge klase
+Točke koje treba zapamtiti:  
+
+Ne može se nazvati izravno.
+Kada se izvršava, tada korisnik nema kontrolu.
+Ne uzima modifikatore pristupa niti bilo koje parametre.
+Poziva se automatski za inicijalizaciju klase prije nego što se stvori prva instanca.
+
+Ograničenje korištenja statične ključne riječi: 
+static ključnu riječ ne mogu koristiti indeksatori , finalizatori ili tipovi koji nisu klase.
+Statički član nije referenciran kroz instancu.
+U C# nije dopušteno koristiti ovo za referenciranje statičkih metoda ili pristupnika svojstvima.
+U C#, ako se ključna riječ static koristi s klasom, tada statička klasa uvijek sadrži statičke članove.
